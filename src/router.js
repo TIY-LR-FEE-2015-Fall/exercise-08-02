@@ -5,6 +5,10 @@ var Router = Backbone.Router.extend({
     ':id': 'assignmentsDetail',
     ':id/edit': 'assignmentsEdit',
   },
+
+  assignmentsNew() {
+    debugger;
+  },
 });
 
 export default Router;
