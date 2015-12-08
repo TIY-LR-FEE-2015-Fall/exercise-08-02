@@ -35,10 +35,10 @@ export default Backbone.View.extend({
   // The blueprint of what HTML should get shoved into our view
   template(model) {
     return `
-      <input type="text" id="name" placeholder="Name">
-      <input type="date" id="issuedAt" placeholder="Issued On Date">
-      <input type="date" id="dueAt" placeholder="Due Date">
-      <input type="number" step="5" min="0" max="100" id="grade" placeholder="Grade">
+      <input type="text" value="${model.get('name')}" id="name" placeholder="Name">
+      <input type="date" value="${model.get('issuedAt')}" id="issuedAt" placeholder="Issued On Date">
+      <input type="date" value="${model.get('dueAt')}" id="dueAt" placeholder="Due Date">
+      <input type="number" value="${model.get('grade')}" step="5" min="0" max="100" id="grade" placeholder="Grade">
 
       <button>Submit</button>
     `;

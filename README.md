@@ -26,4 +26,12 @@ Pages/Routes:
     * [X] Redirect to home or details
     * [ ] User can see new assignment in list
 * Show the full details for an assignment
+  - [X] Get the assignment from API based on the URL
+  - [ ] Show the assignment details (View)
+    * [ ] Assignment Name
+    * [ ] Assignment Issue Date
+    * [ ] Assignment Due Date
+    * [ ] Assignment Grade
+    * [ ] Link to Edit
+    * [ ] Button to Delete
 * Edit an existing assignment
