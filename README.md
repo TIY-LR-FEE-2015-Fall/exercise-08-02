@@ -12,10 +12,10 @@ Pages/Routes:
 
 * Overview - List All assignments
   - [X] Fetch All assignments from the server (Model & Collection)
-  - [ ] User should see a list of assignments (View)
-    * [ ] Assignment Name
-    * [ ] Assignment Due Date
-    * [ ] Link to View More Details
+  - [X] User should see a list of assignments (View)
+    * [X] Assignment Name
+    * [X] Assignment Due Date
+    * [X] Link to View More Details
 * Create a new assignment (Form)
   - [X] Check that the route is loading (Router)
   - [X] Create New assignment not saved to the server yet (Model)

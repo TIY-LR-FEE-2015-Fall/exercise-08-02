@@ -1,6 +1,8 @@
 import Assignment from './models/assignment';
 import AssignmentCollection from './collections/assignments';
+
 import AssignmentForm from './views/assignment-form';
+import AssignmentList from './views/assignment-list';
 
 var Router = Backbone.Router.extend({
   routes: {
@@ -14,6 +16,9 @@ var Router = Backbone.Router.extend({
     var allAssignments = new AssignmentCollection();
 
     allAssignments.fetch();
+
+    var list = new AssignmentList({collection: allAssignments});
+    $('#outlet').html(list.el);
   },
 
   assignmentsNew() {
