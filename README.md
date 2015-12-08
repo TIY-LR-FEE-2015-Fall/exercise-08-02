@@ -11,13 +11,19 @@ Each assignment will have
 Pages/Routes:
 
 * Overview - List All assignments
+  - [X] Fetch All assignments from the server (Model & Collection)
+  - [ ] User should see a list of assignments (View)
+    * [ ] Assignment Name
+    * [ ] Assignment Due Date
+    * [ ] Link to View More Details
 * Create a new assignment (Form)
   - [X] Check that the route is loading (Router)
   - [X] Create New assignment not saved to the server yet (Model)
   - [X] Show the user a Form (View)
-  - [ ] User can submit form (View)
-    * [ ] Grab input values
-    * [ ] Save the model
-    * [ ] Redirect to home or details
+  - [X] User can submit form (View)
+    * [X] Grab input values
+    * [X] Save the model
+    * [X] Redirect to home or details
+    * [ ] User can see new assignment in list
 * Show the full details for an assignment
 * Edit an existing assignment

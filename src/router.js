@@ -1,4 +1,5 @@
 import Assignment from './models/assignment';
+import AssignmentCollection from './collections/assignments';
 import AssignmentForm from './views/assignment-form';
 
 var Router = Backbone.Router.extend({
@@ -7,6 +8,12 @@ var Router = Backbone.Router.extend({
     new: 'assignmentsNew',
     ':id': 'assignmentsDetail',
     ':id/edit': 'assignmentsEdit',
+  },
+
+  assignmentsAll() {
+    var allAssignments = new AssignmentCollection();
+
+    allAssignments.fetch();
   },
 
   assignmentsNew() {
