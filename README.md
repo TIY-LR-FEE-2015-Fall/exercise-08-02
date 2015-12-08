@@ -13,8 +13,8 @@ Pages/Routes:
 * Overview - List All assignments
 * Create a new assignment (Form)
   - [X] Check that the route is loading (Router)
-  - [ ] New assignment not saved to the server yet (Model)
-  - [ ] Show the user a Form (View)
+  - [X] Create New assignment not saved to the server yet (Model)
+  - [X] Show the user a Form (View)
   - [ ] User can submit form (View)
     * [ ] Grab input values
     * [ ] Save the model
